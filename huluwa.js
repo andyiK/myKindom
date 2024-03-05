@@ -16,6 +16,7 @@
  环境变量 YLQX_COOKIE 驿路黔寻
  */
 
+ const $ = new Env("葫芦娃预约");
  const SPLIT = "@"; // 分割符（可自定义）
 
  const axios = require('axios');
