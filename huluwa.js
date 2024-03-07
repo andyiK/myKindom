@@ -245,14 +245,14 @@
  }
  
  async function main() {
-     const XLTH_COOKIE_ARR = process.env.XLTH_COOKIE; // 新联惠购
-     const GLYP_COOKIE_ARR = process.env.GLYP_COOKIE; // 贵旅优品
-     const KGLG_COOKIE_ARR = process.env.KGLG_COOKIE; // 空港乐购
-     const HLQG_COOKIE_ARR = process.env.HLQG_COOKIE; // 航旅黔购
-     const ZHCS_COOKIE_ARR = process.env.ZHCS_COOKIE; // 遵行出山
-     const GYQP_COOKIE_ARR = process.env.GYQP_COOKIE; // 贵盐黔品
-     const LLSC_COOKIE_ARR = process.env.LLSC_COOKIE; // 乐旅商城
-     const YLQX_COOKIE_ARR = process.env.YLQX_COOKIE; // 驿路黔寻
+     const XLTH_COOKIE_ARR = process.env.xlth_cookies; // 新联惠购
+     const GLYP_COOKIE_ARR = process.env.glyp_cookies; // 贵旅优品
+     const KGLG_COOKIE_ARR = process.env.kglg_cookies; // 空港乐购
+     const HLQG_COOKIE_ARR = process.env.hlqg_cookies; // 航旅黔购
+     const ZHCS_COOKIE_ARR = process.env.zhcs_cookies; // 遵行出山
+     const GYQP_COOKIE_ARR = process.env.gyqp_cookies; // 贵盐黔品
+     const LLSC_COOKIE_ARR = process.env.llsc_cookies; // 乐旅商城
+     const YLQX_COOKIE_ARR = process.env.ylqx_cookies; // 驿路黔寻
  
      if (XLTH_COOKIE_ARR) {
          console.log('新联惠购预约开始');
