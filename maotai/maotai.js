@@ -362,11 +362,12 @@ function getSessionId() {
 function getShopInfo() {
   console.log(`获取[${MT_PROVINCE + MT_CITY + MT_DISTRICT}]门店库存:\n`);
   let opt = {
-    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/shop/list/slim/v3/${$.sessionId}/${encodeURIComponent(MT_PROVINCE)}/1054/${zeroDate}`,
+    url: `https://static.moutai519.com.cn/mt-backend/xhr/front/mall/shop/list/slim/v3/1054/${$.sessionId}/${encodeURIComponent(MT_PROVINCE)}/${zeroDate}`,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
     }
   }
+  //https://static.moutai519.com.cn/mt-backend/xhr/front/mall/shop/list/slim/v3/${$.sessionId}/${encodeURIComponent(MT_PROVINCE)}/1054/${zeroDate}
   // console.log(opt);
   return new Promise(resolve => {
     $.get(opt, (err, resp, data) => {
