@@ -108,4 +108,4 @@ hostname = pure-api3.soulplatform.com
 
 
 
-var obj = JSON.parse($response.body);obj.results.is_published = true;obj.results.publish_state_change_time= 1735656581 $done({body : JSON.stringify(obj)});
+var obj = JSON.parse($response.body);obj.results.is_published = true;obj.results.publish_state_change_time=1735656581 $done({body : JSON.stringify(obj)});
