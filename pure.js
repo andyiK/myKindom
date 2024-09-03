@@ -2,7 +2,7 @@
 @Leo
 Pure解除送礼私聊限制
 [rewrite_local]
-^https:\/\/pure-api3\.soulplatform\.com\/announcements\/  url script-response-body https://raw.githubusercontent.com/andyiK/myKindom/main/pure.js
+^https?:\/\/pure-api3\.soulplatform\.com\/announcements\/  url script-response-body https://raw.githubusercontent.com/andyiK/myKindom/main/pure.js
 hostname = pure-api3.soulplatform.com
 *********************************************/
 
