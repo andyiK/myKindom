@@ -4,14 +4,6 @@
 @Date: 2024.06.27
 @Description:顺丰速运 签到、日常任务、会员日、蜂蜜。采蜜任务默认关闭，可在boxjs打开
 ------------------------------------------
-重写:打开小程序，进入我的页面，点击优惠券页面获取token。支持多账号。
-
-[Script]
-http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://raw.githubusercontent.com/andyiK/myKindom/main/sy.js, requires-body=true, timeout=60, tag=顺丰速运获取token
-
-[MITM]
-hostname = mcs-mimp-web.sf-express.com
-
 ⚠️【免责声明】
 ------------------------------------------
 1、此脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
